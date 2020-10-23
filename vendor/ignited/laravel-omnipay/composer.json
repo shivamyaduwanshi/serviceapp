@@ -1,0 +1,32 @@
+{
+    "name": "ignited/laravel-omnipay",
+    "description": "Integerates Omnipay with Laravel and provides an easy configuration.",
+    "keywords": ["omnipay", "payments", "laravel", "laravel5", "laravel7"],
+    "authors": [
+        {
+            "name": "Alex Whiteside",
+            "email": "alexwhiteside@ignitedlabs.com.au"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "^7.0",
+        "omnipay/common": "^3@beta"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ignited\\LaravelOmnipay": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ignited\\LaravelOmnipay\\LaravelOmnipayServiceProvider"
+            ],
+            "aliases": {
+                "Omnipay": "Ignited\\LaravelOmnipay\\Facades\\OmnipayFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}

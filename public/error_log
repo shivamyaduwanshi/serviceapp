@@ -1,0 +1,16 @@
+[16-Oct-2020 11:24:38 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'echo' (T_ECHO) in /home1/dohafous/public_html/storage/framework/views/1d83151a7ad6bf3c7c07875f1660fbef877f6828.php:24
+Stack trace:
+#0 /home1/dohafous/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/home1/dohafous...', Array)
+#1 /home1/dohafous/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/home1/dohafous...', Array)
+#2 /home1/dohafous/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#3 /home1/dohafous/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#4 /home1/dohafous/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(62): Illuminate\View\View->render()
+#5 /home1/dohafous/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\Http\Respon in /home1/dohafous/public_html/storage/framework/views/1d83151a7ad6bf3c7c07875f1660fbef877f6828.php on line 24
+[16-Oct-2020 11:24:38 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'echo' (T_ECHO) in /home1/dohafous/public_html/storage/framework/views/1d83151a7ad6bf3c7c07875f1660fbef877f6828.php:24
+Stack trace:
+#0 /home1/dohafous/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/home1/dohafous...', Array)
+#1 /home1/dohafous/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/home1/dohafous...', Array)
+#2 /home1/dohafous/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#3 /home1/dohafous/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#4 /home1/dohafous/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(62): Illuminate\View\View->render()
+#5 /home1/dohafous/public_html/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate\Http\Respon in /home1/dohafous/public_html/storage/framework/views/1d83151a7ad6bf3c7c07875f1660fbef877f6828.php on line 24

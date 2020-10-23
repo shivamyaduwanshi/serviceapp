@@ -1,0 +1,38 @@
+{
+    "name": "bedigit/lara-recaptcha",
+    "description": "Advanced reCAPTCHA package for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bedigit",
+            "email": "contact@bedigit.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "laravel/framework": "^5.5|^6.0|^7.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Bedigit\\ReCaptcha\\": "src/"
+        },
+        "files": [
+            "src/app/Helpers/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "scripts": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bedigit\\ReCaptcha\\ReCaptchaServiceProvider"
+            ],
+            "aliases": {
+                "ReCaptcha": "Bedigit\\ReCaptcha\\Facades\\ReCaptcha"
+            }
+        }
+    }
+}
